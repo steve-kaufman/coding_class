@@ -1,3 +1,9 @@
+//float.cpp
+/*
+ * This program gives a short overview of the 'float' data type
+ * and the different arithmetic operators that can be used to modify it.
+ */
+
 #include <iostream>
 
 using namespace std;
@@ -19,3 +25,14 @@ int main(){
     cout << myFloat << endl;
     return 0;
 }
+
+// Expected output:
+/*
+
+3.25
+4.75
+4.25
+12.75
+6.375
+
+*/
