@@ -1,17 +1,13 @@
 #include <iostream>
-#include <cstring>
 
 using namespace std;
 
 int main(){
-    string name;
-    cout << "What is your name? ";
-    cin >> name;
-    if(name.length() > 5){
-        cout << "Your name has more than five letters in it" << endl;
-    }
-    else{
-        cout << "Your name has five or fewer letters in it" << endl;
-    }
+    int number;
+    cout << "Enter any number: ";
+    cin >> number;
+    if(number > 0) cout << "You entered a positive number" << endl;
+    else if(number < 0) cout << "You entered a negative number" << endl;
+    else cout << "Your number is zero" << endl;
     return 0;
 }
